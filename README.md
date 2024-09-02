@@ -11,10 +11,14 @@ it is not working
 
 i tried using permission_handler in my code like these  
 
-ph = ft.PermissionHandler()
-page.overlay.append(ph)
-def request_permission(e):
-      ......
+ph = ft.PermissionHandler()  
+
+page.overlay.append(ph)  
+
+def request_permission(e):  
+
+        ......  
+        
 also  
 
 def open_app_settings(e):
