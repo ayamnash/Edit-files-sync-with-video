@@ -4,10 +4,13 @@ I tried to make it working well on Android, but the problem is the Android syste
 Anyway, anyone can deal with permissions, as this code works on mobile phones in any vertical or horizontal direction.  
 
 i installed https://github.com/flet-dev/flet-build-template/tree/0.24.0
- and i tried many commands like
+ and i tried many commands like  
+ 
 flet build apk --template-dir "C:\Users\ayman\Srt_V_EdIt\flet-build-template" --include-packages  flet_video -vv 
-it is not working
-i tried using permission_handler in my code like these
+it is not working  
+
+i tried using permission_handler in my code like these  
+
 ph = ft.PermissionHandler()
 page.overlay.append(ph)
 def request_permission(e):
