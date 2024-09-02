@@ -21,8 +21,12 @@ def request_permission(e):
         
 also  
 
-def open_app_settings(e):
-    o = ph.open_app_settings()
-    page.add(ft.Text(f"App Settings: {o}"))
+def open_app_settings(e):  
+
+    o = ph.open_app_settings()  
+    
+    page.add(ft.Text(f"App Settings: {o}"))  
+    i tried  another command  
+       
 flet build apk --template-dir "C:\Users\ayman\Srt_V_EdIt\flet-build-template" --include-packages flet_permission_handler flet_video -vv
 I have attached a screen recorder to explain the issue
