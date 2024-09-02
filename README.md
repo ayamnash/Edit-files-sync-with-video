@@ -1,5 +1,5 @@
-This  application for edit the SRT file. you can pick up srt file and video .
-github link
+This  application for edit the SRT file. you can pick video file.
+
 
  I tried to make it working well on Android, but the problem is the Android system reject to save changes even though I gave it permissions due to my lack of experience in dealing with mobile applications.
 Anyway, anyone can deal with permissions, as this code works on mobile phones in any vertical or horizontal direction.
